@@ -1,0 +1,12 @@
+.chatName
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.lastText
+{
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: lightgray;
+}

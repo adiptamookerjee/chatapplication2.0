@@ -1,0 +1,40 @@
+.chatInfo
+{
+    display: flex;
+    height: 54px;
+    align-items: center;
+    background-color: rgb(24, 44, 117);
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+.contact
+{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.chatIcons *
+{
+    color:#fff;
+    margin: 4px;
+    cursor: pointer;
+}
+.contact>img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 6px;
+}
+.messages
+{
+    background-color: #ddddf7;
+    padding: 10px;
+}
+.input
+{
+    height: 50px;
+    background-color: white;
+}

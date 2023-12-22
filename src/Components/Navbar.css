@@ -1,0 +1,41 @@
+.navbar
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #141E46;
+    color: white;
+}
+.profilePic
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar *
+{
+    margin: 6px;
+}
+.logo
+{
+    display: flex; 
+}
+.logo>p
+{
+    font-weight:bolder;
+}
+.user
+{
+    display: flex;
+    align-items: center;
+}
+.navbar>p
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.logout
+{
+    cursor: pointer;
+}
